@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    tools:context=".signUp">
+
+
+
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="240dp"
+        android:ems="10"
+        android:textColor="@color/White"
+        android:textColorHint="@color/White"
+        android:hint="Enter Name"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/edtPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="300dp"
+        android:ems="10"
+        android:textColor="@color/White"
+        android:hint="Enter Phone Number"
+        android:textColorHint="@color/White"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="383dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="360dp"
+        android:ems="10"
+        android:textColor="@color/White"
+        android:textColorHint="@color/White"
+        android:hint="Enter Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="103dp"
+        android:theme="@style/AppTheme.Button"
+        android:textColor="@color/White"
+        android:text="Sign Up" />
+
+</RelativeLayout>
